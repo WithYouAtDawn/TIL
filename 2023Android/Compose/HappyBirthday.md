@@ -5,7 +5,7 @@
 @Composable
 fun GreetingPreview() {
     HappyBirthdayTheme {
-        Greeting(name = "Compose")
+        Greeting(name: "Compose")
     }
 }
 ```
@@ -15,7 +15,7 @@ fun GreetingPreview() {
 @Composable
 fun GreetingPreview() {
     HappyBirthdayTheme {
-        Greeting(name = "Compose")
+        Greeting(name: "Compose")
     }
 }
 ```
@@ -25,7 +25,7 @@ fun GreetingPreview() {
 @Composable
 fun AppleGame() {
     HappyBirthdayTheme{
-        Greeting(name = "Compose")
+        Greeting(name: "Compose")
     }
 }
 ```
@@ -39,7 +39,9 @@ fun AppleGame() {
 @Composable
 fun AppleGame() {
     HappyBirthdayTheme{
-        Greeting(name = "Compose")
+        Greeting(name: "Compose")
     }
 }
 ```
+#### !! 반환하지 않는 @Composable 주석을 단 함수는 파스칼 표기법 !!
+- 명사 제외 다 금지
